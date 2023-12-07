@@ -1,0 +1,15 @@
+Interface
+    - uses implements keyword
+    - predefined public static final modifiers
+    - only abstract methods(no body)
+    - USE CASE
+        - It is like when u know the ingredients but not the recipe. U create an interface with the things that u know which are going to be used.
+          logic can be given in the implemented class
+        - Multiple inerfaces can be implemented on one class
+
+Abstract class 
+    - uses extends keyword  
+    - no predefined modifiers   
+    - can have both abstract and non abstract methods
+    - USE CASES
+        - when u know the ingredients and also little bit of the recipe.
