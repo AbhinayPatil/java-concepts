@@ -1,4 +1,4 @@
-multi threading can be implements in two ways.
+multi threading can be implemented in two ways.
 1. extends Thread class
     This is easier method, skips one step.
     But problem with this is only one class is extended in java, only one subclass is allowed. no multiple inheritance.
