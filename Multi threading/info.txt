@@ -1,0 +1,11 @@
+multi threading can be implements in two ways.
+1. extends Thread class
+    This is easier method, skips one step.
+    But problem with this is only one class is extended in java, only one subclass is allowed. no multiple inheritance.
+    thus, if u want to use extends for your own purpose then u cant extends thread class.
+
+2. implements Runnable interface
+    One line extra but overcomes above problem.
+    U can have as many interfaces implemented on the same class.
+    ans plus u can extend your class for your use.
+
