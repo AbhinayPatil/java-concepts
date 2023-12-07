@@ -1,0 +1,7 @@
+Inheritance is process in which one class aquires property of other class
+
+Types
+    - single
+    - heirarchical
+    - multi level
+    - multiple(not in java)
