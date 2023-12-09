@@ -1,0 +1,4 @@
+Static polymorphism includes method resolution at compile time thus the name Static.
+It can be done using method overloading
+    - same method signature but different number or types of paremeter
+    - But the return type is same for the methods.
