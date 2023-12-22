@@ -39,6 +39,43 @@ public class Main{
         String bin = Integer.toBinaryString(21);
     }
 
+    
+
+
     public static void main(String[] args) {
     }
 }
+
+//*******************************************CUSTOM COMPARATOR*******************************************
+
+//I am using this class to store objects in my desired form so that i can compare them
+class MyComparison{
+    int first;
+    int second;
+    int third;
+    MyComparison(int first,int second,int third){
+        this.first=first;
+        this.second=second;
+        this.third=third;
+    }
+}
+//u can compare two variable using lamba expression, but if u have 3 variabels in comparison operation
+//then u need to implement comparator class
+ class ComparatorExample implements Comparator<MyComparison>{
+    @Override
+    public int compare(MyComparison o1, MyComparison o2) {
+        //if u want to swap elements then return 1, if not return -1;
+        if(o1.second<o2.second)
+            return -1;
+        else if(o1.second>o2.second)
+            return 1;
+        else if(o1.third<o2.third)
+            return -1;
+        else return 1;
+    }
+
+    //use it int main class by caking an object of comparator class ans sorting the list based ont that comparator
+    //example
+    //ComparatorExample ce = new ComparatorExample<>();
+    //Collections.sort(arr,ce);
+ }
