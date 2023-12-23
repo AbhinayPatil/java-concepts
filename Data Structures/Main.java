@@ -39,10 +39,33 @@ public class Main{
         String bin = Integer.toBinaryString(21);
     }
 
+    //*******************************************HashMap*******************************************
+    public static void hashMapExample(){
+        //initialize;
+        HashMap<String,Integer> map = new HashMap<>();
+
+        //ad element
+        map.put("A",1);
+
+        //check an key and object
+        map.containsKey("whaterver u wnt to search");//returns boolean
+        map.containsValue(1);//returns boolean
+
+        //get a value
+        map.get("whatever u want");//returns value
+
+        //iterator for map
+        Iterator<String> itt = map.keySet().iterator();
+        while(itt.hasNext()){
+            String key = itt.next();
+            //use this key eventually to access each value;
+        }
+    }
     
 
 
     public static void main(String[] args) {
+        //main method
     }
 }
 
