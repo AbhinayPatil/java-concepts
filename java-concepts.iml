@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Data Structures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lamda Ex and Functional Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Multi threading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stream Ex" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
